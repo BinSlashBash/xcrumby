@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.omnibar.FragmentSuggestion android:gravity="10" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:minHeight="60dp">
+    <LinearLayout android:gravity="10" android:id="@id/fragment_suggestion_link" android:background="@drawable/omnibar_modal_button" android:padding="10dp" android:layout_width="-2" android:layout_height="-1" android:layout_weight="1.0">
+        <ImageView android:id="@id/suggestion_image" android:layout_width="40dp" android:layout_height="-1" android:layout_marginRight="10dp" android:layout_weight="0.0" />
+        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+            <TextView android:textSize="18sp" android:textColor="@color/White" android:id="@id/suggestion_name" android:layout_width="-1" android:layout_height="-2" />
+            <TextView android:textSize="18sp" android:textColor="@color/DescriptionGray" android:textColorLink="@color/DescriptionGray" android:autoLink="0" android:id="@id/suggestion_url" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.crumby.lib.widget.firstparty.omnibar.FragmentSuggestionFavourite android:id="@id/suggestion_favorite" android:background="@drawable/omnibar_modal_button" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/ic_action_important_copy" android:layout_weight="0.0" />
+</com.crumby.lib.widget.firstparty.omnibar.FragmentSuggestion>

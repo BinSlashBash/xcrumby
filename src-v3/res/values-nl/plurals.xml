@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uv_comments">
+        <item quantity="other">reacties</item>
+        <item quantity="one">reactie</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">volgers</item>
+        <item quantity="one">volger</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">artikelen</item>
+        <item quantity="one">artikel</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">ideeën</item>
+        <item quantity="one">idee</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">mensen</item>
+        <item quantity="one">persoon</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s willen dit idee</item>
+        <item quantity="one">%1$s wil dit idee</item>
+    </plurals>
+</resources>

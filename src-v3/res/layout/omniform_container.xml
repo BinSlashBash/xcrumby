@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.omnibar.OmniformContainer android:orientation="1" android:id="@id/omniform_container" android:background="@color/BackgroundGray" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:id="@id/omni_title" android:layout_width="-1" android:layout_height="40dp" android:layout_weight="1.0" style="@style/main_menu_title">
+            <TextView android:gravity="10" android:id="@id/gallery_form_title" android:layout_width="-2" android:text="GALLERY SEARCH" android:layout_weight="1.0" style="@style/main_menu_title_text" />
+            <LinearLayout android:gravity="30" android:orientation="0" android:id="@id/omniform_tabs" android:layout_width="-2" android:layout_height="50dp" android:layout_marginTop="7dp" android:layout_weight="0.0">
+                <com.crumby.lib.widget.firstparty.omnibar.FormTabButton android:id="@id/search_form_button" android:background="@drawable/omniform_button" android:layout_width="-2" android:layout_height="-1" android:src="@crumbygalleryfragment/BREADCRUMB_ICON" android:minWidth="70dp" />
+                <com.crumby.lib.widget.firstparty.omnibar.FormTabButton android:id="@id/user_button" android:background="@drawable/omniform_button" android:layout_width="-2" android:layout_height="-1" android:src="@tumblrartistfragment/BREADCRUMB_ICON" android:minWidth="70dp" />
+                <com.crumby.lib.widget.firstparty.omnibar.FormTabButton android:id="@id/settings_button" android:background="@drawable/omniform_button" android:visibility="2" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/ic_action_settings" android:minWidth="70dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/form_container" android:padding="10dp" android:layout_width="-1" android:layout_height="-2"
+        <RelativeLayout android:id="@id/search_form" android:layout_width="-1" android:layout_height="-2" />
+        <RelativeLayout android:id="@id/user_login_form" android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:orientation="1" android:id="@id/user_login_data" android:layout_width="-1" android:layout_height="-2" />
+            <LinearLayout android:orientation="1" android:id="@id/login_encountered_an_error" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="16sp" android:gravity="3" android:layout_width="-2" android:layout_height="-2" android:text="Hmmm, you appear to be having trouble logging in." />
+                <TextView android:textSize="16sp" android:gravity="3" android:id="@id/login_encountered_an_error_message" android:layout_width="-2" android:layout_height="-2" android:text="" android:alpha="0.5" />
+                <Button android:layout_gravity="5" android:id="@id/try_logging_in_again" android:layout_width="-2" android:layout_height="-2" android:text="Try again?" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/setting_form" android:visibility="2" android:layout_width="-1" android:layout_height="-2" /> />
+    <LinearLayout android:gravity="5" android:layout_gravity="800005" android:layout_width="-1" android:layout_height="-2">
+        <Button android:textSize="13sp" android:textColor="@color/TitleGray" android:id="@id/search_form_submit" android:background="@drawable/omnibar_modal_button" android:layout_width="-2" android:layout_height="-2" android:text="Search Danbooru" />
+        <ImageButton android:textSize="13sp" android:background="@drawable/omnibar_modal_button" android:visibility="2" android:layout_width="45dp" android:layout_height="-2" android:src="@drawable/ic_action_import_export" />
+    </LinearLayout>
+</com.crumby.lib.widget.firstparty.omnibar.OmniformContainer>

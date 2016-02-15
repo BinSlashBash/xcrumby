@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <objectAnimator android:duration="500" android:valueFrom="-1280" android:valueTo="0" android:valueType="0" android:propertyName="x" />
+</set>

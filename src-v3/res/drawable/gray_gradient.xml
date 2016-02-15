@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item>
+        <shape>
+            <gradient android:startColor="@color/OmniSearchGray" android:endColor="@color/Transparent" android:angle="180.0" android:centerX="90%" />
+        </shape>
+    </item>
+</selector>

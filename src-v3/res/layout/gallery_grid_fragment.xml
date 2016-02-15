@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/BackgroundGray" android:layout_width="-1" android:layout_height="-1">
+    <com.crumby.lib.widget.firstparty.grow.GrowGridView android:id="@id/gallery_output" android:numColumns="-1" style="@style/gallery_output" />
+    <include layout="@layout/fragment_options" />
+    <FrameLayout android:background="@color/BackgroundGray" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:layout_alignParentRight="true">
+        <ImageButton android:id="@id/show_omnibar" android:background="@drawable/fragment_toggle_button" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="-5dp" android:src="@drawable/ic_action_expand" />
+    </FrameLayout>
+    <ImageView android:id="@id/grid_bitmap" android:layout_width="-1" android:layout_height="-1" />
+    <com.crumby.lib.widget.firstparty.grow.ColumnCounter android:id="@id/column_count" android:text="3" style="@style/column_count" />
+    <include layout="@layout/error_view" />
+</RelativeLayout>

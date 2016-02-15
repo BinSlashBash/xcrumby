@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="5dp" android:paddingTop="10dp" android:paddingRight="5dp" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:paddingLeft="5dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="1" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0"
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="12sp" android:id="@id/uv_name" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Evan Hamilton" />
+                <TextView android:textSize="12sp" android:textColor="#999999" android:id="@id/uv_date" android:layout_width="-2" android:layout_height="-2" android:text="Feb 12, 2013" />
+            </LinearLayout>
+            <TextView android:textSize="12sp" android:textColor="#999999" android:id="@id/uv_text" android:paddingTop="2dp" android:layout_width="-2" android:layout_height="-2" android:text="We are looking into this. Please check back and leave additional comments and we will be in touch!" />
+        </LinearLayout>
+        <ImageView android:id="@id/uv_avatar" android:paddingTop="2dp" android:layout_width="50dp" android:layout_height="50dp" />
+    </LinearLayout>
+    <include layout="@layout/uv_divider" />
+</LinearLayout>

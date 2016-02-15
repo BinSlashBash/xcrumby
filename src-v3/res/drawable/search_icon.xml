@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:id="@id/first_layer_search" android:drawable="@drawable/ic_action_save" />
+    <item android:id="@id/second_layer_search" android:drawable="@drawable/ic_action_save" android:left="12.5dp" android:top="12.5dp" />
+</layer-list>

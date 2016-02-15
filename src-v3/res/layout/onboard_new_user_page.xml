@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/onboard_new_user_page" android:layout_width="-1" android:layout_height="-1">
+    <GridView android:id="@id/choose_content_galleries_grid" android:paddingBottom="70dp" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2" android:columnWidth="100dp" android:numColumns="-1" />
+    <LinearLayout android:background="@color/TranslucentGoodGray" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14sp" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Before we start, how about selecting all the kinds of images you like?" android:layout_weight="1.0" />
+        <Button android:id="@id/user_done_onboarding" android:layout_width="-2" android:layout_height="-2" android:text="Good to go!" android:layout_weight="0.0" />
+    </LinearLayout>
+</RelativeLayout>

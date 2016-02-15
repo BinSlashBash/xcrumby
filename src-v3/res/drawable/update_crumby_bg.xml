@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_pressed="true">
+        <shape android:shape="0">
+            <corners android:radius="5dp" />
+            <gradient android:startColor="#37e831" android:endColor="#004204" android:angle="90.0" android:type="0" android:centerX="35%" android:centerColor="#25a83b" />
+            <stroke android:width="2dp" android:color="#004204" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="0">
+            <corners android:radius="5dp" />
+            <gradient android:startColor="#37e831" android:endColor="#004204" android:angle="270.0" android:type="0" android:centerX="35%" android:centerColor="#25a83b" />
+            <stroke android:width="2dp" android:color="#004204" />
+        </shape>
+    </item>
+</selector>

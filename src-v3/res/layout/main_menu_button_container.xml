@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:layout_gravity="11" android:id="@id/main_menu_button_container" android:clickable="true" android:layout_width="40dp" android:layout_height="55dp" android:layout_marginLeft="5dp">
+    <ImageButton android:gravity="11" android:id="@id/main_menu_button" android:background="@string/app_name" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/menu_button" />
+    <com.crumby.lib.widget.firstparty.main_menu.DownloadIndicator android:textStyle="1" android:id="@id/download_indicator" android:background="@color/DarkActionBarBlue" android:padding="4dp" android:layout_width="-2" android:layout_height="-2" android:text="11" android:layout_alignParentRight="true" android:alpha="0.0" />
+</RelativeLayout>

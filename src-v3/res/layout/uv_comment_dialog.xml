@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2">
+        <EditText android:gravity="30" android:id="@id/uv_comment_edit_text" android:layout_width="-1" android:layout_height="-2" android:minHeight="60dp" android:hint="@string/uv_comment_hint" android:ems="10" android:inputType="20001" />
+        <LinearLayout android:orientation="1" android:id="@id/uv_email" android:layout_width="-1" android:layout_height="-2">
+            <include layout="@layout/uv_header_item_light_no_padding" />
+            <EditText android:id="@id/uv_text_field" android:layout_width="-1" android:layout_height="-2" android:hint="@string/uv_email_address" android:ems="10" android:inputType="21" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="@id/uv_name" android:layout_width="-1" android:layout_height="-2">
+            <include layout="@layout/uv_header_item_light_no_padding" />
+            <EditText android:id="@id/uv_text_field" android:layout_width="-1" android:layout_height="-2" android:hint="@string/uv_name_hint" android:ems="10" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

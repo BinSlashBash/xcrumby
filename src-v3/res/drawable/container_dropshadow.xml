@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape>
+            <padding android:right="2dp" />
+            <solid android:color="#00cccccc" android:right="2dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:right="2dp" />
+            <solid android:color="#10cccccc" android:right="2dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:right="2dp" />
+            <solid android:color="#20cccccc" android:right="2dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:right="2dp" />
+            <solid android:color="#30cccccc" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:right="2dp" />
+            <solid android:color="#50cccccc" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/BackgroundGray" />
+        </shape>
+    </item>
+</layer-list>

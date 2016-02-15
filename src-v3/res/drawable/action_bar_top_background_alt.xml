@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:layout_width="-2" android:layout_height="-2">
+    <item>
+        <bitmap android:src="@drawable/gradienttop" />
+    </item>
+</selector>

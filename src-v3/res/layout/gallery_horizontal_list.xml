@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+    <twowayview.TwoWayView android:scrollbarStyle="3000000" android:id="@id/home_horizontal_list" android:layout_width="-1" android:layout_height="@dimen/horizontal_list_workaround" />
+    <com.crumby.lib.widget.firstparty.ErrorView android:id="@id/error_view" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="0" android:id="@id/home_horizontal_error" android:background="@color/VeryTransparentBackgroundGray" android:padding="10dp" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@unsupportedurlfragment/BREADCRUMB_ICON" />
+            <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textColor="@color/White" android:id="@id/error_main_message" android:layout_width="-2" android:layout_height="-2" android:text="Could not download image gallery" />
+                <TextView android:id="@id/error_sub_message" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                <TextView android:id="@id/error_details" android:layout_width="-2" android:layout_height="-2" />
+                <RelativeLayout android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+                    <Button android:id="@id/error_report" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+                    <Button android:id="@id/error_dismiss" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+                    <Button android:id="@id/error_try_opening_in_web_browser" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.crumby.lib.widget.firstparty.ErrorView>
+</RelativeLayout>

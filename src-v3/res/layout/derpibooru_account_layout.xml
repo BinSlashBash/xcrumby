@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.impl.derpibooru.DerpibooruAccountLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@id/derpibooru_account_name" android:layout_width="-2" android:layout_height="-2" />
+    <com.crumby.lib.widget.thirdparty.HorizontalFlowLayout android:layout_width="-1" android:layout_height="-2">
+        <Button android:textSize="16sp" android:id="@id/go_to_derpibooru_favorites" android:layout_width="-2" android:layout_height="-2" android:text="Favorites" android:drawableLeft="@derpiboorufavouritesfragment/BREADCRUMB_ICON" />
+        <Button android:textSize="16sp" android:id="@id/go_to_derpibooru_watched" android:layout_width="-2" android:layout_height="-2" android:text="Watched" android:drawableLeft="@derpibooruwatchedfragment/BREADCRUMB_ICON" />
+        <Button android:textSize="16sp" android:id="@id/go_to_derpibooru_upvoted" android:layout_width="-2" android:layout_height="-2" android:text="Upvoted" android:drawableLeft="@derpibooruupvotedfragment/BREADCRUMB_ICON" />
+        <Button android:textSize="16sp" android:id="@id/go_to_derpibooru_uploaded" android:layout_width="-2" android:layout_height="-2" android:text="Uploaded" android:drawableLeft="@derpibooruuploadedfragment/BREADCRUMB_ICON" />
+    </com.crumby.lib.widget.thirdparty.HorizontalFlowLayout>
+    <TextView android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Problems accessing your account?" />
+    <Button android:id="@id/login_trouble" android:background="@drawable/omnibar_modal_button" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Relogin" android:drawableLeft="@drawable/ic_action_accounts" />
+</com.crumby.impl.derpibooru.DerpibooruAccountLayout>

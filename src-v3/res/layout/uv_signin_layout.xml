@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <EditText android:id="@id/uv_signin_email" android:layout_width="-1" android:layout_height="-2" android:hint="@string/uv_email_address" android:ems="10" android:inputType="21">
+        <requestFocus />
+    </EditText>
+    <EditText android:id="@id/uv_signin_name" android:layout_width="-1" android:layout_height="-2" android:hint="@string/uv_display_name" android:ems="10" android:inputType="80061" />
+    <LinearLayout android:id="@id/uv_signin_password_fields" android:layout_width="-1" android:layout_height="40dp">
+        <EditText android:id="@id/uv_signin_password" android:layout_width="-1" android:layout_height="-2" android:hint="@string/uv_password" android:ems="10" android:layout_weight="1.0" android:inputType="81" />
+        <Button android:textSize="14sp" android:id="@id/uv_signin_forgot_password" android:layout_width="-2" android:layout_height="-1" android:text="@string/uv_forgot_password" />
+    </LinearLayout>
+</LinearLayout>

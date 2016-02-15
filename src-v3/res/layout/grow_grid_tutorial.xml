@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:id="@id/grow_grid_tutorial" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="24sp" android:textColor="@color/SubtleBlue" android:gravity="11" android:background="@drawable/grow_grid_tutorial_bg_top" android:paddingTop="10dp" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="50dp" android:text="First time using crumby?" android:layout_weight="0.0" />
+    <RelativeLayout android:gravity="11" android:background="@color/VeryTransparentBlack" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="1" android:id="@id/pinch_to_zoom_tut" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/pinch_to_zoom" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="11" android:orientation="1" android:background="@drawable/grow_grid_tutorial_bg_bottom" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="16sp" android:gravity="11" android:paddingTop="30dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Try pinching to zoom in on this gallery.
+ You can expand the grid to view one thumbnail at a time, or shrink it to display much more at once!
+" android:layout_weight="0.0" />
+        <Button android:id="@id/close_grow_grid_tutorial" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:maxWidth="300dp" android:text="Okay" />
+    </LinearLayout>
+</LinearLayout>

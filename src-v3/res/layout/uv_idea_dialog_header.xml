@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="5dp" android:paddingTop="10dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@id/uv_title" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Make the app more Android friendly" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#999999" android:id="@id/uv_text" android:paddingLeft="5dp" android:paddingTop="10dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Badges are cool, and we'd like to give them out to our active users." />
+    <TextView android:textSize="11sp" android:textColor="#999999" android:id="@id/uv_creator" android:paddingLeft="5dp" android:paddingTop="2dp" android:paddingRight="5dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Posted by Anonymous on Jul 21, 2011" />
+    <include layout="@layout/uv_divider" />
+    <RelativeLayout android:orientation="0" android:id="@id/uv_subscribe" android:background="@drawable/uv_clickable" android:paddingLeft="5dp" android:paddingTop="10dp" android:paddingRight="5dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_width="-1" android:layout_height="-2" android:text="@string/uv_i_want_this" />
+            <TextView android:textSize="11sp" android:textColor="#999999" android:id="@id/uv_subscriber_count" android:layout_width="-1" android:layout_height="-2" android:text="12 people want this" />
+        </LinearLayout>
+        <CheckBox android:id="@id/uv_subscribe_checkbox" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:id="@id/uv_admin_response" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="14sp" android:textStyle="1" android:textColor="#8dc13c" android:id="@id/uv_response_status" android:paddingLeft="5dp" android:paddingRight="5dp" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-2" android:text="admin response: started" android:textAllCaps="true" />
+        <View android:id="@id/uv_response_divider" android:background="#8dc13c" android:layout_width="-1" android:layout_height="2dp" />
+        <LinearLayout android:orientation="0" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0"
+                <LinearLayout android:orientation="0" android:paddingTop="5dp" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textSize="12sp" android:id="@id/uv_admin_name" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Evan Hamilton" />
+                    <TextView android:textSize="12sp" android:textColor="#999999" android:id="@id/uv_response_date" android:layout_width="-2" android:layout_height="-2" android:text="Feb 12, 2013" />
+                </LinearLayout>
+                <TextView android:textSize="12sp" android:textColor="#999999" android:id="@id/uv_response_text" android:paddingTop="2dp" android:layout_width="-2" android:layout_height="-2" android:text="We are looking into this. Please check back and leave additional comments and we will be in touch!" />
+            </LinearLayout>
+            <ImageView android:id="@id/uv_admin_avatar" android:paddingTop="2dp" android:layout_width="50dp" android:layout_height="50dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:clickable="false" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/uv_comment_count" android:paddingLeft="5dp" android:text="14 comments" android:textIsSelectable="false" style="@style/uv_ListSeparatorLight" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/uv_post_comment" android:background="@drawable/uv_clickable" android:paddingLeft="5dp" android:paddingTop="10dp" android:paddingRight="5dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_width="0dp" android:layout_height="-2" android:text="@string/uv_post_a_comment" android:layout_weight="1.0" />
+        <View android:background="#20000000" android:layout_width="1px" android:layout_height="-1" />
+        <ImageView android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="5dp" android:src="@drawable/uv_comment" />
+    </LinearLayout>
+    <include layout="@layout/uv_divider" />
+</LinearLayout>

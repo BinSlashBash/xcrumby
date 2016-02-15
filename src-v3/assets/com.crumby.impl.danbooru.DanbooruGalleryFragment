@@ -1,0 +1,55 @@
+// Library JS
+function GalleryImage(thumbnailUrl, linkUrl, imageUrl, width, height, title, description, otherAttributes) {
+	return {
+		"thumbnailUrl": thumbnailUrl,
+		"linkUrl": linkUrl,
+		"imageUrl": imageUrl,
+		"width": width,
+		"height": height,
+		"title": title,
+		"description": description,
+		"otherAttributes": otherAttributes
+	}
+}
+
+function parse(val) {
+    var result = null;
+        tmp = [];
+    location.search
+    //.replace ( "?", "" ) 
+    // this is better, there might be a question mark inside
+    .substr(1)
+        .split("&")
+        .forEach(function (item) {
+        tmp = item.split("=");
+        if (tmp[0] === val) result = {
+        	"encoded": tmp[1]
+        	"decoded": decodeURIComponent(tmp[1]);
+        }
+    });
+    return result;
+}
+
+var danbooru = [];
+var DANBOORU_ROOT = "http://danbooru.donmai.us/";
+
+var API_URL = "http://danbooru.donmai.us/posts.json?";
+if (parse("tags") !== null) {
+	API_URL += "tags=" + parse("tags")["encoded"];
+} 
+if (PAGE_NUMBER != undefined) {
+	API_URL += "&page=" + PAGE_NUMBER;
+}
+
+$.getJSON(API_URL, function(data){
+    for (var i=0, len=data.length; i < len; i++) {
+        danbooru.push(GalleryImage(
+        	DANBOORU_ROOT + data[i]["preview_file_url"],
+        	DANBOORU_ROOT + "posts/" + data[i]["id"],
+        	DANBOORU_ROOT + data[i]["large_file_url"],
+        	data[i]["image_width"],
+        	data[i]["image_height"]
+        ));
+    }
+    Android.finish(data);
+});

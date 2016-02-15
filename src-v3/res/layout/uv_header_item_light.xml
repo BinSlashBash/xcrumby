@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="10dp" android:paddingRight="10dp" android:clickable="false" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@id/uv_header_text" android:text="@string/uv_knowledge_base" android:textIsSelectable="false" style="@style/uv_ListSeparatorLight" />
+</LinearLayout>

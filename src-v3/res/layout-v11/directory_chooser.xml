@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/footer" android:layout_width="-1" android:layout_height="48dp" android:layout_alignParentBottom="true">
+        <View android:background="?unknown_attr_ref: 101030a" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentTop="true" />
+        <View android:id="@id/horizontalDivider" android:background="?unknown_attr_ref: 101030a" android:layout_width="1dp" android:layout_height="-1" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/btnCancel" android:background="?unknown_attr_ref: 101030e" android:layout_width="-2" android:layout_height="-2" android:text="@string/cancel_label" android:layout_toLeftOf="@id/horizontalDivider" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+        <Button android:id="@id/btnConfirm" android:background="?unknown_attr_ref: 101030e" android:layout_width="-2" android:layout_height="-2" android:text="@string/confirm_label" android:layout_toRightOf="@id/horizontalDivider" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/directoryInfo" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/btnNavUp" android:background="@drawable/borderless_button" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/navigation_up" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/up_label" />
+        <TextView android:textStyle="1" android:id="@id/txtvSelectedFolderLabel" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:text="@string/selected_folder_label" android:layout_toRightOf="@id/btnNavUp" android:layout_alignParentTop="true" />
+        <TextView android:ellipsize="1" android:id="@id/txtvSelectedFolder" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:scrollHorizontally="true" android:singleLine="true" android:layout_toLeftOf="@id/btnCreateFolder" android:layout_toRightOf="@id/btnNavUp" android:layout_below="@id/txtvSelectedFolderLabel" />
+        <ImageButton android:id="@id/btnCreateFolder" android:background="@drawable/borderless_button" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ic_action_create" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/create_folder_label" />
+        <View android:id="@id/divider" android:background="@color/bright_blue" android:layout_width="-1" android:layout_height="1dp" android:layout_below="@id/btnNavUp" />
+    </RelativeLayout>
+    <ListView android:id="@id/directoryList" android:layout_width="-1" android:layout_height="0dp" android:layout_above="@id/footer" android:layout_below="@id/directoryInfo" />
+</RelativeLayout>

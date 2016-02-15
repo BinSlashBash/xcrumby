@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:descendantFocusability="2" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/similar_images_container" android:layout_width="-1" android:layout_height="-2">
+        <include layout="@layout/gallery_horizontal_list_container" />
+    </RelativeLayout>
+    <TextView android:textSize="18sp" android:textStyle="1" android:textColor="@color/White" android:id="@id/artist_description" android:padding="10dp" android:paddingTop="20dp" android:layout_width="-2" android:layout_height="-2" android:text="Description" android:layout_below="@id/similar_images_container" />
+    <WebView android:id="@id/deviant_description" android:layout_width="-1" android:layout_height="-2" android:minHeight="300dp" android:layout_below="@id/artist_description" />
+    <ProgressBar android:id="@id/metadata_loading" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

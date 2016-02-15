@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="1" app:orientation="1" app:layout_width="-1" app:layout_height="-2"
+    <LinearLayout app:gravity="11" app:id="@id/booru_image_interaction" app:paddingBottom="10dp" app:visibility="2" app:layout_width="-1" app:layout_height="-2">
+        <ToggleButton app:id="@id/upvote" app:background="@drawable/user_interactive_button" app:layout_width="-2" app:layout_height="60dp" app:layout_marginRight="10dp" app:textOn="Remove Upvote" app:textOff="Upvote" app:drawableLeft="@derpibooruupvotedfragment/BREADCRUMB_ICON" />
+        <ToggleButton app:id="@id/downvote" app:background="@drawable/user_interactive_button" app:layout_width="-2" app:layout_height="60dp" app:layout_marginRight="10dp" app:textOn="Remove Downvote" app:textOff="Downvote" app:drawableLeft="@drawable/ic_action_bad" />
+        <ToggleButton app:id="@id/favorite_derpibooru" app:background="@drawable/user_interactive_button" app:layout_width="-2" app:layout_height="60dp" app:textOn="Un-favorite" app:textOff="Favorite" app:drawableLeft="@derpiboorufavouritesfragment/BREADCRUMB_ICON" />
+    </LinearLayout>
+    <TextView app:textSize="14sp" app:gravity="3" app:autoLink="1" app:linksClickable="true" app:id="@id/booru_description" app:background="@drawable/image_description_bg" app:padding="5dp" app:visibility="2" app:layout_width="-2" app:layout_height="-2" />
+    <TextView app:id="@id/booru_tags_title" app:layout_marginTop="5dp" app:text="Tags" style="@style/metadata_header" />
+    <com.crumby.lib.widget.thirdparty.BoundedLinearLayout app:orientation="1" app:id="@id/booru_tags" app:bounded_width="400dp" style="@style/booru_metadata_tags" />
+    <include layout="@layout/image_comments" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+    {"url":"www.derpibooru.org/images/uploaded", "name": "My Derpibooru uploaded"},
+    {"url":"www.derpibooru.org/images/upvoted", "name": "My Derpibooru Upvoted"},
+    {"url":"www.derpibooru.org/images/favourites", "name": "My Derpibooru Favorites"},
+    {"url":"www.derpibooru.org/images/watched", "name": "My Derpibooru Watched"}

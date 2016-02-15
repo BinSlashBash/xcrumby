@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minimum_thumbnail_width">150.0dip</dimen>
+    <dimen name="thumbnail_height">225.0dip</dimen>
+    <dimen name="horizontal_list_workaround">265.0dip</dimen>
+</resources>

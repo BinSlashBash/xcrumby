@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.multiselect.MultiSelectBar android:gravity="10" android:orientation="0" android:id="@id/multi_select_bar" android:background="@drawable/multi_select_bar" android:clickable="true" android:layout_width="-1" android:layout_height="50dp">
+    <ImageButton android:id="@id/close_multi_selectbar" android:background="@string/app_name" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_action_cancel" android:layout_weight="0.0" />
+    <TextView android:textSize="16sp" android:textColor="@color/WhiteSmoke" android:layout_gravity="10" android:id="@id/galleries_selected" android:layout_width="-2" android:layout_height="-2" android:text="0" android:layout_weight="1.0" />
+    <LinearLayout android:layout_width="-2" android:layout_height="-1" android:layout_weight="0.0">
+        <ImageButton android:id="@id/save_image" android:src="@drawable/ic_action_save" style="@style/bar_button" />
+        <ImageButton android:id="@id/share_image" android:visibility="2" android:src="@drawable/ic_action_share" style="@style/bar_button" />
+        <ImageButton android:id="@id/bookmark_image" android:visibility="2" android:src="@drawable/ic_action_not_important" style="@style/bar_button" />
+    </LinearLayout>
+</com.crumby.lib.widget.firstparty.multiselect.MultiSelectBar>

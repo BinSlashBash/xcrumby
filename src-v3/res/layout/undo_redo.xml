@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-1">
+    <ImageButton android:layout_gravity="10" android:id="@id/undo" android:background="@string/app_name" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_action_back" android:alpha="0.2" />
+    <ImageButton android:layout_gravity="10" android:id="@id/redo" android:background="@string/app_name" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="2dp" android:src="@drawable/ic_action_forward" android:alpha="0.2" />
+</LinearLayout>

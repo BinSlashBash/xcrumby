@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:padding="15dp" android:layout_width="-2" android:layout_height="-2" android:text="To get started, try picking which image gallery you want to see on your home page. You can change it later by touching 'website settings'!" />
+</LinearLayout>

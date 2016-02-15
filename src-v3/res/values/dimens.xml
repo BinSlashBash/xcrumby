@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="uv_listPreferredItemHeightSmall">64.0dip</dimen>
+    <dimen name="listPreferredItemHeightSmall">12.0dip</dimen>
+    <dimen name="ttlm_default_padding">20.0dip</dimen>
+    <dimen name="ttlm_default_corner_radius">4.0dip</dimen>
+    <dimen name="ttlm_default_stroke_weight">1.2999878sp</dimen>
+    <dimen name="minimum_thumbnail_width">100.0dip</dimen>
+    <dimen name="thumbnail_height">150.0dip</dimen>
+    <dimen name="horizontal_list_workaround">190.0dip</dimen>
+    <dimen name="minimum_image_view_height">300.0dip</dimen>
+    <dimen name="maximum_tag_width">300.0dip</dimen>
+    <dimen name="imgur_comment_margin_bottom">10.0dip</dimen>
+    <dimen name="photo_view_container_top">100.0dip</dimen>
+    <dimen name="omnibar_height">50.0dip</dimen>
+</resources>

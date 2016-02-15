@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view chg:id="@id/view" chg:background="@color/OldBackgroundGray" chg:layout_width="-1" chg:layout_height="-1" class="it.gmariotti.changelibs.library.view.ChangeLogListView" />

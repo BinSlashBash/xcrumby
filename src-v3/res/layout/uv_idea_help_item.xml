@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="10sp" android:textColor="#7a7a7a" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/uv_idea_form_help" />
+</LinearLayout>

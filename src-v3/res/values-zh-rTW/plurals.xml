@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uv_comments">
+        <item quantity="other">評論</item>
+        <item quantity="one">評論</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">訂閱者</item>
+        <item quantity="one">訂閱者</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">文章</item>
+        <item quantity="one">文章</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">意見</item>
+        <item quantity="one">意見</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">人</item>
+        <item quantity="one">人</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s 喜歡這個意見</item>
+        <item quantity="one">%1$s 喜歡這個意見</item>
+    </plurals>
+</resources>

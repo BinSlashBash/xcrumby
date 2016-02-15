@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/ImagePressed" />
+        </shape>
+    </item>
+</selector>

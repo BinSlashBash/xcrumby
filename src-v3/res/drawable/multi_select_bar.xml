@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:left="-2dp" android:top="-2dp" android:right="-2dp">
+        <shape>
+            <stroke android:width="2dp" android:color="@color/DarkActionBarBlue" />
+            <solid android:color="@color/DarkestActionBarBlue" />
+        </shape>
+    </item>
+</layer-list>

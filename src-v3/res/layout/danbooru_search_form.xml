@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <TextView app:textSize="15sp" app:layout_width="-1" app:layout_height="-2" app:text="Tags" />
+    <com.crumby.lib.widget.firstparty.form.FormEditText app:hint="Separate each tag with a space" app:field_argument_name="@string/danbooru_argument" app:field_nice_name="Tags" style="@style/FormEditText" />
+</LinearLayout>

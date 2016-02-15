@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="-1" android:layout_height="-2" style="@style/image_wrapper_content">
+    <ImageView android:id="@id/thumbnail" style="@style/thumbnail" />
+    <com.crumby.lib.widget.firstparty.WebViewContainer android:id="@id/webview_container" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <include android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" layout="@layout/image_wrapper_metadata" />
+</LinearLayout>

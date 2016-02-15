@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:left="-2dp" android:top="-2dp" android:right="-2dp">
+        <shape>
+            <stroke android:width="2dp" android:color="@color/GoodGray" />
+            <solid android:color="@color/DownloadMenuGray" />
+        </shape>
+    </item>
+</layer-list>

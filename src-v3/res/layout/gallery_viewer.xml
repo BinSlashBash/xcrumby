@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/WrapperBackground" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/main_menu_container" />
+    <LinearLayout android:orientation="0" android:id="@id/browser_window" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:background="@color/BackgroundGray" android:layout_width="-1" android:layout_height="-1"
+            <RelativeLayout android:id="@id/gallery_view" android:layout_width="-1" android:layout_height="-1" />
+            <LinearLayout android:orientation="1" android:id="@id/gallery_dropdown_options" android:background="@color/GoodGray" android:visibility="2" android:layout_width="300dp" android:layout_height="500dp" />
+            <com.crumby.lib.widget.firstparty.omnibar.ExpandActionBarButton android:id="@id/expand_action_bar" android:visibility="2" android:src="@drawable/ic_action_expand" style="@style/expand_actionbar_button" />
+            <include layout="@layout/gallery_search_modal" />
+            <include layout="@layout/omnibar_modal" />
+            <include layout="@layout/action_bar" />
+            <include layout="@layout/multi_select_bar" />
+            <RelativeLayout android:id="@id/menu_modal" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:alpha="0.0" /> />
+        <View android:background="@drawable/dropshadow" android:layout_width="50dp" android:layout_height="-1" />
+    </LinearLayout>
+</RelativeLayout>

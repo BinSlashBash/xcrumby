@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="50" android:id="@id/action_bar" android:background="@drawable/gradienttop" android:layout_width="-1" android:layout_height="@dimen/omnibar_height">
+    <LinearLayout android:orientation="0" android:id="@id/browser_interface" android:paddingBottom="5dp" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false" style="?unknown_attr_ref: 10102d8">
+        <include layout="@layout/undo_redo_wrapper" />
+        <com.crumby.lib.widget.firstparty.omnibar.OmnibarView android:id="@id/omnibar_view" style="@style/omnibar_view">
+            <include layout="@layout/breadcrumb_container" />
+            <com.crumby.lib.widget.firstparty.omnibar.OmnisearchField android:id="@id/omnisearch_field" style="@style/omnisearch_field" />
+        </com.crumby.lib.widget.firstparty.omnibar.OmnibarView>
+        <include layout="@layout/main_menu_button_container" />
+    </LinearLayout>
+    <include layout="@layout/viewer_progress" />
+</RelativeLayout>

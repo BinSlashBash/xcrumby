@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.ErrorView android:id="@id/error_view" style="@style/modal_view">
+    <ScrollView android:clipToPadding="true" android:layout_width="-1" android:layout_height="-1">
+        <include layout="@layout/error_view_inside" />
+    </ScrollView>
+</com.crumby.lib.widget.firstparty.ErrorView>

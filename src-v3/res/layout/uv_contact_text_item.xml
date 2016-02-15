@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-1">
+    <EditText android:gravity="30" android:id="@id/uv_text" android:layout_width="-1" android:layout_height="-2" android:hint="@string/uv_contact_hint" android:minLines="3" android:ems="10" android:inputType="20001">
+        <requestFocus />
+    </EditText>
+</LinearLayout>

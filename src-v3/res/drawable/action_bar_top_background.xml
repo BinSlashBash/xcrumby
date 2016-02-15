@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:left="-2dp" android:top="-2dp" android:right="-2dp">
+        <shape android:shape="0">
+            <solid android:color="@color/MediumAquamarine" />
+        </shape>
+        <bitmap android:src="@drawable/gradienttop" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/gradienttop" />
+    </item>
+</layer-list>

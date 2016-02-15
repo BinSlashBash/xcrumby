@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.omnibar.BreadcrumbContainer android:orientation="0" android:id="@id/breadcrumb_container" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@id/logged_in_indicator" android:background="@drawable/logged_in_indicator_bg" android:layout_width="30dp" android:layout_height="-1" android:src="@tumblrartistfragment/BREADCRUMB_ICON" />
+        <HorizontalScrollView android:id="@id/breadcrumb_scroll" style="@style/breadcrumb_scroll">
+            <com.crumby.lib.widget.firstparty.omnibar.BreadcrumbList android:id="@id/breadcrumb_list" android:layout_weight="1.0" style="@style/breadcrumb_list" />
+        </HorizontalScrollView>
+    </LinearLayout>
+    <FrameLayout android:background="@drawable/fragment_status_button_bg" android:layout_width="41dp" android:layout_height="-1" android:layout_marginTop="4dp" android:layout_marginBottom="3dp" android:layout_alignParentRight="true" />
+    <com.crumby.lib.widget.firstparty.omnibar.FragmentStatusButton android:id="@id/refresh_fragment" android:background="@drawable/fragment_status_button" android:layout_width="40dp" android:layout_height="-1" android:src="@drawable/ic_action_refresh" android:scaleType="7" android:layout_alignParentRight="true" android:alpha="0.75" />
+</com.crumby.lib.widget.firstparty.omnibar.BreadcrumbContainer>

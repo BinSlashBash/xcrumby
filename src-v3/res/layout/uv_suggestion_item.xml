@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="14sp" android:id="@id/uv_suggestion_title" android:layout_width="-2" android:layout_height="-2" android:text="Suggestion Title" />
+        <LinearLayout android:orientation="0" android:paddingTop="3dp" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:src="@drawable/uv_heart" />
+            <TextView android:textSize="10sp" android:textColor="#999999" android:id="@id/uv_subscriber_count" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text="12" />
+            <View android:id="@id/uv_suggestion_status_color" android:background="#999999" android:layout_width="9dp" android:layout_height="9dp" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:layout_marginRight="3dp" />
+            <TextView android:textSize="10sp" android:textColor="#999999" android:id="@id/uv_suggestion_status" android:layout_width="-2" android:layout_height="-2" android:text="UNDER REVIEW" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/uv_divider" />
+</LinearLayout>

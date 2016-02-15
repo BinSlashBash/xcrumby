@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="1" app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+    <TextView app:id="@id/danbooru_copyright_tags_title" app:text="Copyright Tags" style="@style/metadata_header" />
+    <com.crumby.lib.widget.thirdparty.BoundedLinearLayout app:id="@id/danbooru_copyright_tags" app:bounded_width="400dp" style="@style/booru_metadata_tags" />
+    <TextView app:id="@id/danbooru_artist_tags_title" app:text="Artist Tags" style="@style/metadata_header" />
+    <com.crumby.lib.widget.thirdparty.BoundedLinearLayout app:id="@id/danbooru_artist_tags" app:bounded_width="400dp" style="@style/booru_metadata_tags" />
+    <TextView app:id="@id/danbooru_character_tags_title" app:text="Character Tags" style="@style/metadata_header" />
+    <com.crumby.lib.widget.thirdparty.BoundedLinearLayout app:id="@id/danbooru_character_tags" app:bounded_width="400dp" style="@style/booru_metadata_tags" />
+    <include layout="@layout/booru_image_metadata" />
+</LinearLayout>

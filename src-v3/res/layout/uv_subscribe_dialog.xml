@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1">
+    <EditText android:id="@id/uv_email" android:layout_width="-1" android:layout_height="-2" android:hint="@string/uv_email_address" android:ems="10" android:inputType="21">
+        <requestFocus />
+    </EditText>
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#999999" android:paddingLeft="3dp" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/uv_msg_subscribe" />
+</LinearLayout>

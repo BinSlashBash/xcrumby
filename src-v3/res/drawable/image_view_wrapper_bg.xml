@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:layout_width="-2" android:layout_height="-2">
+    <item android:state_checked="true">
+        <shape>
+            <stroke android:width="6dp" android:color="@color/ActionBarBlue" android:dashWidth="10dp" android:dashGap="4dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/ImagePressed" />
+        </shape>
+    </item>
+</selector>

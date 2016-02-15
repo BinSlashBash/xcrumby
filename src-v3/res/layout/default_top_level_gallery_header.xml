@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.GalleryGridDefaultTopLevelHeader android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <ImageButton android:id="@id/jump_to_search" android:background="@drawable/omnibar_modal_button" android:layout_width="-2" android:layout_height="-2" android:src="@crumbygalleryfragment/BREADCRUMB_ICON" />
+    <ImageButton android:id="@id/jump_to_login" android:background="@drawable/omnibar_modal_button" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@tumblrartistfragment/BREADCRUMB_ICON" />
+</com.crumby.lib.widget.firstparty.GalleryGridDefaultTopLevelHeader>

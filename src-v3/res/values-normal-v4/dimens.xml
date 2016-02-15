@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="circle_button_padding">15.0dip</dimen>
+    <dimen name="overlay_button_padding">11.0dip</dimen>
+    <dimen name="overlay_search_padding">25.0dip</dimen>
+</resources>

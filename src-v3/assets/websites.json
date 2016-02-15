@@ -1,0 +1,82 @@
+[
+    {
+        "url":"www.tumblr.com",
+        "name": "Tumblr"
+    },
+    {
+        "url": "www.danbooru.donmai.us",
+        "name": "Danbooru"
+    },
+    {
+        "url": "www.danbooru.donmai.us/pools/",
+        "name": "Danbooru Pools"
+    },
+    {
+        "url": "www.chan.sankakucomplex.com",
+        "name": "Sankaku Complex"
+    },
+        {
+            "url": "www.chan.sankakucomplex.com/pool",
+            "name": "Sankaku Complex Pools"
+        },
+            {
+                "url": "www.twentypercentcooler.net",
+                "name": "20% Cooler"
+            },
+            {
+                "url": "www.twentypercentcooler.net/pool",
+                "name": "20% Cooler Pools"
+            },
+    {
+        "url": "www.inkbunny.net",
+        "name": "InkBunny"
+    },
+    {
+        "url": "www.furaffinity.net",
+        "name": "FurAffinity"
+    },
+    {
+        "url": "www.deviantart.com",
+        "name": "Deviantart"
+    },
+    {
+        "url": "www.gelbooru.com/",
+        "name": "Gelbooru"
+    },
+    {
+        "url": "www.imgur.com/",
+        "name": "Imgur Homepage"
+    },
+    {
+        "url": "www.konachan.net",
+        "name": "Konachan"
+    },
+    {
+        "url": "www.konachan.net/pool",
+        "name": "Konachan Pool"
+    },
+    {
+        "url": "www.inkbunny.net",
+        "name": "inkbunny"
+    },
+    {
+        "url": "www.e621.net",
+        "name": "e621"
+    },
+    {
+        "url": "www.e621.net/pool",
+        "name": "e621 pools"
+    },
+        {
+        "url": "www.yande.re",
+        "name": "yande.re"
+    },
+    {
+        "url": "www.yande.re/pool",
+        "name": "yande.re pools"
+    },
+    {"url":"www.derpibooru.org", "name": "Derpibooru"},
+    {"url":"www.idol.sankakucomplex.com", "name": "Sankaku Idol"},
+    {"url":"www.tbib.org", "name": "The Big Imageboard"},
+    {"url":"Home", "name": "Home"}
+]

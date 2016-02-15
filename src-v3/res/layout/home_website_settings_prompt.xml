@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="11" android:orientation="1" android:id="@id/home_settings_prompt" android:background="@color/VeryTransparentBackgroundGray" android:padding="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp">
+    <TextView android:textColor="@color/White" android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:text="Want to change which websites
+ show up on your home page?" />
+    <LinearLayout android:layout_width="-2" android:layout_height="-2">
+        <Button android:textSize="16sp" android:layout_gravity="11" android:id="@id/go_to_manage_websites_1" android:layout_width="-2" android:layout_height="-2" android:text="Change Website Settings" android:drawableLeft="@drawable/ic_action_web_site" />
+        <Button android:id="@id/hide_website_settings_prompt" android:layout_width="-2" android:layout_height="-2" android:text="Not now" />
+    </LinearLayout>
+</LinearLayout>

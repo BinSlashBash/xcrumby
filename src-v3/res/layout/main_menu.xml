@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.main_menu.MainMenu android:orientation="1" android:id="@id/main_menu" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="30" android:orientation="0" android:id="@id/omniform_tabs" android:paddingLeft="15dp" android:layout_width="-2" android:layout_height="50dp" android:layout_marginTop="5dp" android:layout_weight="0.0">
+        <com.crumby.lib.widget.firstparty.omnibar.FormTabButton android:id="@id/download_tab_button" android:background="@drawable/omniform_button" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/ic_action_download" android:minWidth="70dp" />
+        <com.crumby.lib.widget.firstparty.omnibar.FormTabButton android:id="@id/settings_tab_button" android:background="@drawable/omniform_button" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/ic_action_settings" android:minWidth="70dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@id/downloads_tab" android:clipChildren="false" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="-6dp" android:layout_weight="1.0"
+        <LinearLayout android:background="@color/BackgroundGray" style="@style/main_menu_title">
+            <TextView android:text="RECENT DOWNLOADS" style="@style/main_menu_title_text" />
+        </LinearLayout>
+        <TextView android:textSize="14sp" android:gravity="1" android:id="@id/downloads_header" android:background="@drawable/image_view_wrapper_bg" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="5dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="0 invalid images" android:drawableLeft="@drawable/cancel_circle" />
+        <View android:layout_width="-1" android:layout_height="1dp" android:color="@color/GoodGray" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <ListView android:id="@id/menu_downloads" android:paddingBottom="60dp" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />
+            <LinearLayout android:background="@color/GoodDarkerGray" android:padding="2dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" android:layout_alignParentBottom="true">
+                <Button android:textSize="18sp" android:gravity="11" android:id="@id/clear_downloads" android:background="@drawable/menu_item" android:paddingLeft="15dp" android:clickable="true" android:layout_height="50dp" android:text="Clear All" android:drawableLeft="@drawable/ic_notify_clear_normal" style="@style/main_menu_item_text" />
+                <View android:background="@color/GoodDarkerGray" android:layout_width="3dp" android:layout_height="30dp" />
+                <Button android:textSize="18sp" android:gravity="11" android:id="@id/view_download_directory" android:background="@drawable/menu_item" android:paddingLeft="15dp" android:layout_height="50dp" android:text="View Pics" android:drawableLeft="@drawable/ic_action_phone" style="@style/main_menu_item_text" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/settings_tab" />
+</com.crumby.lib.widget.firstparty.main_menu.MainMenu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <TextView app:textSize="15sp" app:layout_width="-1" app:layout_height="-2" app:text="Full-text Search" />
+    <com.crumby.lib.widget.firstparty.form.FormEditText app:hint="Enter Keywords" app:field_argument_name="f_search" app:field_nice_name="Full-text" app:field_value="" style="@style/FormEditText" />
+    <TextView app:textSize="15sp" app:layout_width="-1" app:layout_height="-2" app:text="Categories" />
+    <com.crumby.lib.widget.thirdparty.HorizontalFlowLayout app:layout_width="-1" app:layout_height="-2">
+        <com.crumby.lib.widget.firstparty.form.FormCheckBox app:layout_width="-2" app:layout_height="-2" app:text="Doujinshi" app:field_argument_name="f_doujinshi" />
+        <com.crumby.lib.widget.firstparty.form.FormCheckBox app:layout_width="-2" app:layout_height="-2" app:text="Manga" app:field_argument_name="f_manga" />
+        <com.crumby.lib.widget.firstparty.form.FormCheckBox app:layout_width="-2" app:layout_height="-2" app:text="Artist CG" app:field_argument_name="f_artistcg" />
+        <com.crumby.lib.widget.firstparty.form.FormCheckBox app:layout_width="-2" app:layout_height="-2" app:text="Game CG" app:field_argument_name="f_gamecg" />
+        <com.crumby.lib.widget.firstparty.form.FormCheckBox app:layout_width="-2" app:layout_height="-2" app:text="Western" app:field_argument_name="f_western" />
+        <com.crumby.lib.widget.firstparty.form.FormCheckBox app:layout_width="-2" app:layout_height="-2" app:text="ImageSet" app:field_argument_name="f_imageset" />
+        <com.crumby.lib.widget.firstparty.form.FormCheckBox app:layout_width="-2" app:layout_height="-2" app:text="Cosplay" app:field_argument_name="f_cosplay" />
+        <com.crumby.lib.widget.firstparty.form.FormCheckBox app:layout_width="-2" app:layout_height="-2" app:text="Asian Porn" app:field_argument_name="f_asianporn" />
+        <com.crumby.lib.widget.firstparty.form.FormCheckBox app:layout_width="-2" app:layout_height="-2" app:text="Miscellaneous" app:field_argument_name="f_misc" />
+        <com.crumby.lib.widget.firstparty.form.FormCheckBox app:layout_width="-2" app:layout_height="-2" app:text="Non-Hentai" app:field_argument_name="f_non-h" />
+    </com.crumby.lib.widget.thirdparty.HorizontalFlowLayout>
+</LinearLayout>

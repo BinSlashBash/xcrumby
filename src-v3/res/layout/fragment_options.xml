@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="0" android:id="@id/fragment_options" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="55dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true">
+    <LinearLayout android:orientation="0" android:background="@color/BackgroundGray" android:layout_width="-2" android:layout_height="-2">
+        <com.crumby.lib.widget.firstparty.fragment_options.SearchGalleryButton android:id="@id/search_gallery" android:src="@crumbygalleryfragment/BREADCRUMB_ICON" style="@style/fragment_options_button" />
+        <com.crumby.lib.widget.firstparty.fragment_options.SelectFragmentButton android:id="@id/select_fragment" android:src="@drawable/ic_action_make_available_offline" style="@style/fragment_options_button" />
+        <com.crumby.lib.widget.firstparty.fragment_options.SaveImageButton android:id="@id/save_current_image" android:src="@drawable/ic_action_save" style="@style/fragment_options_button" />
+        <com.crumby.lib.widget.firstparty.fragment_options.OverflowImageButton android:id="@id/overflow_button" android:src="@drawable/ic_action_overflow" style="@style/fragment_options_button" />
+        <com.crumby.lib.widget.firstparty.fragment_options.SelectAllButton android:id="@id/select_all_images" android:src="@drawable/ic_action_select_all" style="@style/fragment_options_button" />
+        <com.crumby.lib.widget.firstparty.fragment_options.LaunchWebViewButton android:id="@id/view_fragment_in_web" android:visibility="2" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_action_web_site" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item>
+        <shape>
+            <solid android:color="@color/GoodGray" />
+            <stroke android:width="2dp" android:color="@color/BackgroundGray" />
+        </shape>
+    </item>
+</selector>

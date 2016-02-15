@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.omnibar.OmnibarModal android:id="@id/omnibar_modal" style="@style/omnibar_modal">
+    <ScrollView android:id="@id/suggestions_scroll_view" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <include layout="@layout/omniform_container" />
+            <include layout="@layout/suggestion_title" />
+            <com.crumby.lib.widget.firstparty.omnibar.FragmentSuggestions android:orientation="1" android:id="@id/fragment_suggestions" android:background="@color/BackgroundGray" android:layout_width="-1" android:layout_height="-2">
+                <include android:id="@id/search_all_galleries" layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+                <include layout="@layout/fragment_suggestion" />
+            </com.crumby.lib.widget.firstparty.omnibar.FragmentSuggestions>
+            <com.crumby.lib.widget.firstparty.omnibar.FragmentSuggestionsIndicator android:gravity="11" android:orientation="1" android:id="@id/searching_suggestions" android:background="@color/BackgroundGray" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2">
+                <ProgressBar android:id="@id/loading_suggestions" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textStyle="2" android:textColor="@color/DescriptionGray" android:id="@id/no_suggestions_found" android:padding="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="No suggestions matching your url could be found." />
+                <TextView android:textColor="@color/DescriptionGray" android:id="@id/suggestions_intro" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Start typing and Crumby will try to suggest image websites that might interest you or that you have favorited before." />
+            </com.crumby.lib.widget.firstparty.omnibar.FragmentSuggestionsIndicator>
+        </LinearLayout>
+    </ScrollView>
+</com.crumby.lib.widget.firstparty.omnibar.OmnibarModal>

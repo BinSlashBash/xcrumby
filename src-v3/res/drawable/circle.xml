@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:layout_width="-2" android:layout_height="-2">
+    <item android:state_pressed="true">
+        <shape android:shape="1">
+            <solid android:color="#99000000" />
+            <stroke android:width="2dp" android:color="@color/HoloBlue" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="1">
+            <solid android:color="#88000000" />
+            <padding android:left="15dp" android:top="15dp" android:right="15dp" android:bottom="15dp" />
+        </shape>
+    </item>
+</selector>

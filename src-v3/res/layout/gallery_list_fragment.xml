@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@color/BackgroundGray" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="@id/gallery_output" android:numColumns="1" style="@style/gallery_output" />
+    <include layout="@layout/error_view" />
+</RelativeLayout>

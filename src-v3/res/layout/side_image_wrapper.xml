@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.grow.ImagePressWrapper android:paddingBottom="5dp" style="@style/image_press_wrapper">
+    <RelativeLayout android:id="@id/wrapper_content" android:layout_width="-1" style="@style/image_wrapper_content">
+        <ImageView android:id="@id/thumbnail" android:scaleType="6" style="@style/thumbnail" />
+        <RelativeLayout android:background="@color/TransparentBlack" android:padding="10dp" android:layout_width="-2" android:layout_height="70dp" android:layout_alignParentBottom="true">
+            <include android:layout_width="-1" layout="@layout/image_wrapper_metadata" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.crumby.lib.widget.firstparty.grow.ImagePressWrapper>

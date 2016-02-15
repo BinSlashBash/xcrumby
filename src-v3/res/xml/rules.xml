@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <website id="Ehentai">
+        <site class="com.crumby.impl.ehentai.HentaiSequenceFragment" />
+        <site class="com.crumby.impl.ehentai.HentaiSubGalleryFragment" />
+        <site class="com.crumby.impl.ehentai.HentaiGalleryFragment" />
+    </website>
+    <website id="XBooru">
+        <site class="com.crumby.impl.xbooru.XBooruImageFragment" />
+        <site class="com.crumby.impl.xbooru.XBooruFragment" />
+    </website>
+    <website id="Tbib">
+        <site class="com.crumby.impl.tbib.TbibImageFragment" />
+        <site class="com.crumby.impl.tbib.TbibFragment" />
+    </website>
+    <website id="wildcritter">
+        <site class="com.crumby.impl.wildcritter.WildCritterImageFragment" />
+        <site class="com.crumby.impl.wildcritter.WildCritterFragment" />
+    </website>
+    <website id="rule34paheal">
+        <site class="com.crumby.impl.rule34paheal.Rule34PahealImageFragment" />
+        <site class="com.crumby.impl.rule34paheal.Rule34PahealFragment" />
+    </website>
+    <website id="rule34xxx">
+        <site class="com.crumby.impl.rule34xxx.Rule34xxxImageFragment" />
+        <site class="com.crumby.impl.rule34xxx.Rule34xxxFragment" />
+    </website>
+    <website id="booru">
+        <site class="com.crumby.impl.boorus.BoorusImageFragment" />
+        <site class="com.crumby.impl.boorus.BoorusFragment" />
+    </website>
+    <website id="pururin">
+        <site class="com.crumby.impl.pururin.PururinImageFragment" />
+        <site class="com.crumby.impl.pururin.PururinThumbsFragment" />
+        <site class="com.crumby.impl.pururin.PururinFragment" />
+    </website>
+    <website id="tumblr">
+        <site class="com.crumby.impl.tumblr.TumblrImageFragment" />
+        <site class="com.crumby.impl.tumblr.TumblrArtistFragment" />
+        <site class="com.crumby.impl.tumblr.TumblrFragment" />
+    </website>
+    <website id="idolchan">
+        <site class="com.crumby.impl.idolchan.SankakuChanPoolGalleryFragment" />
+        <site class="com.crumby.impl.idolchan.SankakuChanPoolFragment" />
+        <site class="com.crumby.impl.idolchan.SankakuChanImageFragment" />
+        <site class="com.crumby.impl.idolchan.SankakuChanFragment" />
+    </website>
+    <website id="sankakuchan">
+        <site class="com.crumby.impl.sankakuchan.SankakuChanPoolGalleryFragment" />
+        <site class="com.crumby.impl.sankakuchan.SankakuChanPoolFragment" />
+        <site class="com.crumby.impl.sankakuchan.SankakuChanImageFragment" />
+        <site class="com.crumby.impl.sankakuchan.SankakuChanFragment" />
+    </website>
+    <website id="konachan">
+        <site class="com.crumby.impl.konachan.KonachanPoolGalleryFragment" />
+        <site class="com.crumby.impl.konachan.KonachanPoolFragment" />
+        <site class="com.crumby.impl.konachan.KonachanImageFragment" />
+        <site class="com.crumby.impl.konachan.KonachanFragment" />
+    </website>
+    <website id="furaffinity">
+        <site class="com.crumby.impl.furaffinity.FurAffinityImageFragment" />
+        <site class="com.crumby.impl.furaffinity.FurAffinityUserFragment" />
+        <site class="com.crumby.impl.furaffinity.FurAffinityFragment" />
+    </website>
+    <website id="inkbunny">
+        <site class="com.crumby.impl.inkbunny.InkbunnyImageFragment" />
+        <site class="com.crumby.impl.inkbunny.InkbunnyFragment" />
+    </website>
+    <website id="deviantart">
+        <site class="com.crumby.impl.deviantart.DeviantArtMoreLikeThisFragment" />
+        <site class="com.crumby.impl.deviantart.DeviantArtImageFragment" />
+        <site class="com.crumby.impl.deviantart.DeviantArtUserFragment" />
+        <site class="com.crumby.impl.deviantart.DeviantArtFragment" />
+    </website>
+    <website id="yandere">
+        <site class="com.crumby.impl.yandere.YanderePoolGalleryFragment" />
+        <site class="com.crumby.impl.yandere.YanderePoolFragment" />
+        <site class="com.crumby.impl.yandere.YandereImageFragment" />
+        <site class="com.crumby.impl.yandere.YandereFragment" />
+    </website>
+    <website id="twentypercent">
+        <site class="com.crumby.impl.twentypercentcooler.TwentyPercentCoolerPoolGalleryFragment" />
+        <site class="com.crumby.impl.twentypercentcooler.TwentyPercentCoolerPoolFragment" />
+        <site class="com.crumby.impl.twentypercentcooler.TwentyPercentCoolerImageFragment" />
+        <site class="com.crumby.impl.twentypercentcooler.TwentyPercentCoolerDFragment" />
+    </website>
+    <website id="e621">
+        <site class="com.crumby.impl.e621.e621PoolGalleryFragment" />
+        <site class="com.crumby.impl.e621.e621PoolFragment" />
+        <site class="com.crumby.impl.e621.e621ImageFragment" />
+        <site class="com.crumby.impl.e621.e621Fragment" />
+    </website>
+    <website id="gelbooru">
+        <site class="com.crumby.impl.gelbooru.GelbooruImageFragment" />
+        <site class="com.crumby.impl.gelbooru.GelbooruFragment" />
+    </website>
+    <website id="derpibooru">
+        <site class="com.crumby.impl.derpibooru.DerpibooruUploadedFragment" />
+        <site class="com.crumby.impl.derpibooru.DerpibooruUpvotedFragment" />
+        <site class="com.crumby.impl.derpibooru.DerpibooruWatchedFragment" />
+        <site class="com.crumby.impl.derpibooru.DerpibooruFavouritesFragment" />
+        <site class="com.crumby.impl.derpibooru.DerpibooruTagFragment" />
+        <site class="com.crumby.impl.derpibooru.DerpibooruImageFragment" />
+        <site class="com.crumby.impl.derpibooru.DerpibooruFragment" />
+    </website>
+    <website id="imgur">
+        <site class="com.crumby.impl.imgur.ImgurUserGalleryFragment" />
+        <site class="com.crumby.impl.imgur.ImgurImageFragment" />
+        <site class="com.crumby.impl.imgur.ImgurSubredditFragment" />
+        <site class="com.crumby.impl.imgur.ImgurAlbumFragment" />
+        <site class="com.crumby.impl.imgur.ImgurFragment" />
+    </website>
+    <website id="danbooru">
+        <site class="com.crumby.impl.danbooru.DanbooruPoolGalleryFragment" />
+        <site class="com.crumby.impl.danbooru.DanbooruPoolFragment" />
+        <site class="com.crumby.impl.danbooru.DanbooruImageFragment" />
+        <site class="com.crumby.impl.danbooru.DanbooruGalleryFragment" />
+    </website>
+    <website />
+    <website id="crumby">
+        <site class="com.crumby.impl.crumby.UnsupportedUrlFragment" />
+        <site class="com.crumby.impl.crumby.HomeFragment" />
+        <site class="com.crumby.impl.crumby.CrumbyGalleryFragment" />
+    </website>
+</resources>

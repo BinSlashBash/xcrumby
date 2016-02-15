@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/uv_header_item" />
+    <LinearLayout android:orientation="1" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-1">
+        <EditText android:id="@id/uv_text_field" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:inputType="1">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_pressed="true">
+        <shape android:color="@color/TransparentGoodGray" />
+    </item>
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/TranslucentGoodGray" />
+        </shape>
+    </item>
+</selector>

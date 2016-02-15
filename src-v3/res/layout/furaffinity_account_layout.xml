@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.impl.furaffinity.FurAffinityAccountLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@id/furaffinity_username" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:layout_width="-2" android:layout_height="-2" android:text="For this release, Crumby does not support FurAffinity Account pages. Want more features just for FurAffinity? Then vote below!" />
+    <Button android:textSize="16sp" android:id="@id/user_forum" android:layout_width="-2" android:layout_height="-2" android:text="Jump to forum" android:drawableLeft="@drawable/uv_idea" />
+</com.crumby.impl.furaffinity.FurAffinityAccountLayout>

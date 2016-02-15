@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1"
+    <RelativeLayout app:id="@id/authenticator_activity" app:layout_width="-1" app:layout_height="-1" />
+    <com.crumby.lib.widget.thirdparty.BoundedLinearLayout app:orientation="1" app:background="@color/BackgroundGray" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true" app:bounded_width="400dp">
+        <LinearLayout style="@style/main_menu_title">
+            <TextView android:id="@id/login_form_title" android:text="WEBSITE AUTHENTICATION" style="@style/main_menu_title_text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-2" android:layout_height="-2"
+            <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                <ImageView android:id="@id/login_image" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginRight="10dp" android:src="@drawable/ic_action_warning" android:layout_weight="0.0" />
+                <TextView android:textSize="14sp" android:textColor="@color/White" android:id="@id/login_message" android:layout_width="-2" android:layout_height="-2" android:text="WARNING: This feature is still in beta. Features like favouriting, upvoting/downvoting, and commenting are not yet supported. Please be patient as the developer improves upon Crumby." android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:id="@id/login_form_user_title" android:layout_width="-2" android:layout_height="-2" android:text="Email" />
+            <EditText android:id="@id/account_name" android:layout_width="-1" android:layout_height="-2" android:inputType="80001" />
+            <TextView android:layout_width="-2" android:layout_height="-2" android:text="Password" />
+            <EditText android:id="@id/account_password" android:layout_width="-1" android:layout_height="-2" android:password="true" />
+            <Button android:id="@id/submit_account" android:layout_width="-1" android:layout_height="-2" android:text="Save Credentials" />
+        </LinearLayout>
+    </com.crumby.lib.widget.thirdparty.BoundedLinearLayout>
+    <RelativeLayout android:id="@id/loading_login" android:background="@color/TransparentBlack" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:gravity="11" android:orientation="1" android:background="@color/Black" android:padding="20dp" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <ProgressBar android:id="@id/loading_login_progress" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:gravity="11" android:layout_width="-2" android:layout_height="-2" android:text="Logging you in..." />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

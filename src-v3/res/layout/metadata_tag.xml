@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <Button android:id="@id/metadata_tag_button" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/metadata_tag_hide" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_action_cancel" android:layout_weight="0.0" />
+</LinearLayout>

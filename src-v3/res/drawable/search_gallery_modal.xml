@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape android:shape="0">
+            <solid android:color="@color/TransparentBlack" />
+            <padding android:left="@dimen/overlay_button_padding" android:top="@dimen/overlay_button_padding" android:right="@dimen/overlay_button_padding" android:bottom="@dimen/overlay_button_padding" />
+            <stroke android:width="1dp" android:color="@color/DimGray" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <com.crumby.lib.widget.thirdparty.HackyViewPager android:id="@id/view_pager" android:layout_width="-1" android:layout_height="-1">
+        <android.support.v4.view.PagerTitleStrip android:textColor="#fff" android:layout_gravity="50" android:id="@id/pager_title_strip" android:background="@drawable/pager_title_bg" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2" />
+    </com.crumby.lib.widget.thirdparty.HackyViewPager>
+    <RelativeLayout android:gravity="11" android:id="@id/loading_page" android:background="@color/BackgroundGray" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" /> />

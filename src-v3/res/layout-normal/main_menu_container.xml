@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="280dp" style="@style/main_menu_container">
+    <include layout="@layout/main_menu" />
+</FrameLayout>

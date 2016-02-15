@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/home_horizontal_error" android:background="@color/VeryTransparentBackgroundGray" android:padding="10dp" android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@unsupportedurlfragment/BREADCRUMB_ICON" />
+    <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textColor="@color/White" android:layout_width="-2" android:layout_height="-2" android:text="Could not download image gallery" />
+        <TextView android:id="@id/error_message" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="0x108004f" android:id="@id/uv_action_search" android:title="@string/uv_menu_search" android:showAsAction="a" android:actionViewClass="android.widget.SearchView" />
+    <item android:icon="@drawable/uv_contact" android:id="@id/uv_action_contact" android:title="@string/uv_contact_us" android:showAsAction="2" />
+</menu>

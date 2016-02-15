@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/text1"
+    android:drawableRight="@drawable/tooltip_cancel_padding"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#4476BA"
+	android:autoLink="all">
+    <!--
+    android:drawableLeft="@drawable/ic_action_cancel"-->
+    <!--android:textColor="#F5F5F5"-->
+    <!--android:textSize="16sp"-->
+</TextView>

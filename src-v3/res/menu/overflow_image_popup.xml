@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu class="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_share" android:id="@id/overflow_share_image" android:title="Share" />
+    <item android:icon="@drawable/ic_action_web_site" android:id="@id/overflow_open_image_in_web" android:title="Open in Web" />
+</menu>

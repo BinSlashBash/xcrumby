@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition>
+    <item android:drawable="@color/HoloBlue" />
+    <item android:drawable="@drawable/image_view_wrapper_bg" />
+</transition>

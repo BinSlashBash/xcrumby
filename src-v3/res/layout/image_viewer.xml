@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/Black" android:layout_width="-1" android:layout_height="-1">
+    <com.crumby.lib.widget.thirdparty.HackyViewPager android:id="@id/view_pager" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

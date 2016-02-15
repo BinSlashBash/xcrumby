@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.ImageCommentView android:orientation="1" android:background="@drawable/image_comment" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp">
+    <TextView android:id="@id/comment_username" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:textColor="@color/WhiteSmoke" android:autoLink="1" android:linksClickable="true" android:id="@id/comment_message" android:layout_width="-2" android:layout_height="-2" />
+</com.crumby.lib.widget.firstparty.ImageCommentView>

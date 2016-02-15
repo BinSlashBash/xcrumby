@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.GalleryGridDefaultHeader android:orientation="1" android:padding="10dp" android:paddingRight="55dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="20sp" android:textColor="@color/TitleGray" android:id="@id/gallery_title" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <TextView android:textSize="16sp" android:textColor="@color/DescriptionGray" android:id="@id/gallery_description" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:text="" />
+</com.crumby.lib.widget.firstparty.GalleryGridDefaultHeader>

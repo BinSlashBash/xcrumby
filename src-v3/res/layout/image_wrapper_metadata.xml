@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/gallery_link" android:src="@imgursubredditfragment/BREADCRUMB_ICON" style="@style/gallery_link" />
+    <LinearLayout android:orientation="1" android:id="@id/wrapper_metadata" android:padding="5dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:textColor="@color/WhiteSmoke" android:id="@id/image_title" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+        <TextView android:textColor="@color/SubtleBlue" android:id="@id/image_subtitle" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+        <TextView android:id="@id/image_description" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

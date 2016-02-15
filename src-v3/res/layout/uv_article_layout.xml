@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/uv_view_flipper" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:id="@id/uv_container" android:layout_width="-1" android:layout_height="-2">
+            <WebView android:id="@id/uv_webview" android:layout_width="-1" android:layout_height="-2" />
+            <LinearLayout android:orientation="1" android:id="@id/uv_helpful_section" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                <View android:background="#33c3e7" android:layout_width="-1" android:layout_height="2px" />
+                <LinearLayout android:orientation="1" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_width="-1" android:layout_height="-2" android:text="@string/uv_article_browse_question" />
+                    <TableLayout android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2" android:columnCount="2">
+                        <TableRow>
+                            <Button android:id="@id/uv_helpful_button" android:layout_width="0dp" android:layout_height="-2" android:text="@string/uv_very_yes" android:layout_weight="1.0" />
+                            <Button android:id="@id/uv_unhelpful_button" android:layout_width="0dp" android:layout_height="-2" android:text="@string/uv_no" android:layout_weight="1.0" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</ViewFlipper>

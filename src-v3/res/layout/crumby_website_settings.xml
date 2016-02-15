@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <ExpandableListView android:id="@id/website_settings_list" android:background="@color/SettingsBackground" android:clipToPadding="true" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:gravity="11" android:layout_gravity="5" android:orientation="1" android:id="@id/settings_bottom_bar" android:background="@drawable/website_settings_bottom" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14sp" android:layout_width="-2" android:layout_height="-2" android:text="Want more websites in Crumby?" android:color="@color/White" />
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+            <Button android:id="@id/settings_vote_on_it" android:layout_width="-2" android:layout_height="-2" android:text="Vote for more!" android:drawableLeft="@drawable/uv_idea" />
+            <Button android:id="@id/settings_not_interested" android:layout_width="-2" android:layout_height="-2" android:text="Not now" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

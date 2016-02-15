@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.ImageCommentsView android:orientation="1" android:id="@id/comments_view" android:layout_width="-1" android:layout_height="-2">
+    <ProgressBar android:layout_gravity="1" android:id="@id/loading_comments" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:gravity="11" android:layout_gravity="1" android:id="@id/comments_title" android:visibility="2" android:text="Comments" style="@style/metadata_header" />
+    <LinearLayout android:orientation="1" android:id="@id/comments_container" android:layout_width="-1" android:layout_height="-2">
+        <include layout="@layout/comment_view" />
+        <include layout="@layout/comment_view" />
+        <include layout="@layout/comment_view" />
+        <include layout="@layout/comment_view" />
+        <include layout="@layout/comment_view" />
+    </LinearLayout>
+</com.crumby.lib.widget.firstparty.ImageCommentsView>

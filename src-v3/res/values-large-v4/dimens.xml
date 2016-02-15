@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minimum_thumbnail_width">125.0dip</dimen>
+    <dimen name="thumbnail_height">187.0dip</dimen>
+    <dimen name="horizontal_list_workaround">227.0dip</dimen>
+    <dimen name="circle_button_padding">15.0dip</dimen>
+    <dimen name="overlay_button_padding">22.0dip</dimen>
+    <dimen name="overlay_search_padding">40.0dip</dimen>
+</resources>

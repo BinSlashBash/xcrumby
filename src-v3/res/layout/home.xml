@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.thirdparty.VerticalScrollView app:background="@drawable/home_top_repeat" app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout android:orientation="1" android:paddingTop="50dp" android:descendantFocusability="2" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:orientation="0" android:background="@color/HomeGray" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="0.0">
+            <ImageView android:layout_width="120dp" android:layout_height="120dp" android:src="@drawable/hi_res_crumby" android:layout_weight="0.0" />
+            <LinearLayout android:orientation="1" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:textSize="32sp" android:textColor="@color/SubtleBlue" android:layout_width="-2" android:layout_height="-2" android:text="Greetings!" />
+                <TextView android:textSize="16sp" android:autoLink="f" android:id="@id/start_message" android:layout_width="-2" android:layout_height="-2" android:text="To get started, tap on one of the latest images below or start a search in the omnibar above. More cool features are on the way!" />
+                <Button android:textSize="20sp" android:id="@id/update_crumby" android:background="@drawable/update_crumby_bg" android:padding="5dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Update Crumby!" android:drawableLeft="@drawable/ic_action_download" />
+                <Button android:textSize="16sp" android:id="@id/user_forum" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Forum" android:drawableLeft="@drawable/uv_idea" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/TransparentGray" android:layout_width="-1" android:layout_height="2dp" />
+        <LinearLayout android:orientation="1" android:id="@id/default_home" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:layout_gravity="5" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                <Button android:textSize="16sp" android:id="@id/go_to_manage_websites" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Website Settings" android:drawableLeft="@drawable/ic_action_web_site" />
+            </LinearLayout>
+            <include layout="@layout/home_website_settings_prompt" />
+            <LinearLayout android:orientation="1" android:id="@id/list_holder" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" /> />
+        <com.crumby.lib.widget.thirdparty.BoundedLinearLayout android:layout_gravity="11" android:orientation="1" android:id="@id/website_chooser_new_user" android:layout_width="-2" android:layout_height="-2" android:bounded_width="400dp" />
+    </LinearLayout>
+</com.crumby.lib.widget.thirdparty.VerticalScrollView>

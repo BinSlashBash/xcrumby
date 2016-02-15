@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.main_menu.DownloadMenuItem style="@style/main_menu_button">
+    <ImageView android:layout_gravity="10" android:id="@id/download_background" android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout style="@style/main_menu_item">
+        <TextView android:id="@id/menu_download_item_id" android:text="" style="@style/menu_download_item_id" />
+        <TextView android:id="@id/menu_download_item" android:text="" style="@style/main_menu_item_text" />
+        <ImageView android:id="@id/download_thumbnail" android:background="@drawable/circle_button" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="15dp" android:layout_weight="0.0" />
+    </LinearLayout>
+</com.crumby.lib.widget.firstparty.main_menu.DownloadMenuItem>

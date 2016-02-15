@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="47" android:versionName="0.47" package="com.crumby">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="18" />
+    <supports-screens android:smallScreens="false" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:theme="@style/Theme_imgBrowser" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name=".CrumbyApp" android:hardwareAccelerated="true" android:largeHeap="true">
+        <receiver android:name="com.tapstream.sdk.ReferrerReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <meta-data android:name="com.google.android.gms.analytics.globalConfigResource" android:resource="@xml/global_tracker" />
+        <activity android:name="com.crumby.GalleryViewer" android:stateNotNeeded="true" android:launchMode="singleInstance" android:configChanges="keyboardHidden|orientation|screenSize" android:alwaysRetainTaskState="false" android:windowSoftInputMode="10" android:hardwareAccelerated="true">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+        <receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".impl.furaffinity.FurAffinityAuthenticatorService" android:exported="false" android:stopWithTask="true">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/furaffinity_auth" />
+        </service>
+        <service android:name=".impl.derpibooru.DerpibooruAuthenticatorService" android:exported="false" android:stopWithTask="true">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/derpibooru_auth" />
+        </service>
+        <activity android:theme="@style/Theme_Transparent" android:label="Login" android:name=".lib.authentication.AuthenticatorActivity" android:exported="false" android:excludeFromRecents="true" android:windowSoftInputMode="10" />
+        <activity android:name="com.uservoice.uservoicesdk.activity.PortalActivity" />
+        <activity android:name="com.uservoice.uservoicesdk.activity.ForumActivity" />
+        <activity android:name="com.uservoice.uservoicesdk.activity.ArticleActivity" />
+        <activity android:name="com.uservoice.uservoicesdk.activity.TopicActivity" />
+        <activity android:name="com.uservoice.uservoicesdk.activity.ContactActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.uservoice.uservoicesdk.activity.PostIdeaActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+    </application>
+</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:background="@color/VeryTransparentBlack" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="17sp" android:textStyle="1" android:layout_width="-1" android:layout_height="-2" android:text="Tag Blacklist" android:drawableLeft="@derpibooruwatchedfragment/BREADCRUMB_ICON" android:layout_weight="1.0" />
+        <Button android:id="@id/done_with_website_settings" android:layout_width="-2" android:layout_height="-2" android:text="Back" android:layout_weight="0.0" />
+    </LinearLayout>
+    <TextView android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Separate each tag with a space. NOTE FOR DERPIBOORU USERS: Do not use commas, write your tags like so 'twillight_sparkle spike' instead of 'twilight sparkle, spike'" />
+    <EditText android:id="@id/tag_blacklist" android:padding="10dp" android:layout_width="-1" android:layout_height="0dp" android:minLines="4" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/settings_tab" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="-6dp"
+    <LinearLayout android:background="@color/BackgroundGray" android:layout_weight="0.0" style="@style/main_menu_title">
+        <TextView android:text="SETTINGS" style="@style/main_menu_title_text" />
+    </LinearLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_marginLeft="15dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2">
+            <Button android:id="@id/get_help" android:text="View Support Forum" android:drawableLeft="@drawable/uv_idea" style="@style/main_menu_settings_button" />
+            <Button android:id="@id/change_website_settings" android:text="Change Website Settings" android:drawableLeft="@drawable/ic_action_web_site" style="@style/main_menu_settings_button" />
+            <Button android:id="@id/change_tag_blacklist" android:text="Modify Tag Blacklist" android:drawableLeft="@derpibooruwatchedfragment/BREADCRUMB_ICON" style="@style/main_menu_settings_button" />
+            <Button android:id="@id/change_download_directory" android:text="Change Download Folder" android:drawableLeft="@imgursubredditfragment/BREADCRUMB_ICON" style="@style/main_menu_settings_button" />
+            <TextView android:textSize="14sp" android:paddingTop="20dp" android:layout_width="-2" android:layout_height="-2" android:text="Other" />
+            <com.crumby.lib.widget.firstparty.main_menu.SettingsCheckBox android:id="@id/setting_show_downloads_on_save" android:text="Show downloads pane when saving images" style="@style/main_menu_setting_check_box" />
+            <com.crumby.lib.widget.firstparty.main_menu.SettingsCheckBox android:id="@id/setting_persist_grid_columns" android:text="Persist the number of grid columns across Galleries" style="@style/main_menu_setting_check_box" />
+            <com.crumby.lib.widget.firstparty.main_menu.SettingsCheckBox android:id="@id/setting_use_folders" android:text="Save image in separate folders for each Gallery" style="@style/main_menu_setting_check_box" />
+            <com.crumby.lib.widget.firstparty.main_menu.SettingsCheckBox android:id="@id/setting_run_in_background" android:visibility="2" android:text="Keep current browsing session" style="@style/main_menu_setting_check_box" />
+            <com.crumby.lib.widget.firstparty.main_menu.SettingsCheckBox android:id="@id/open_images_in_full_screen_by_default" android:text="Expand Images by Default" style="@style/main_menu_setting_check_box" />
+            <Button android:id="@id/restart_app" android:text="Restart Crumby" android:drawableLeft="@drawable/ic_action_refresh" style="@style/main_menu_settings_button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

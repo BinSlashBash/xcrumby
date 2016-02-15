@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uv_comments">
+        <item quantity="other">комментариев</item>
+        <item quantity="one">комментарий</item>
+        <item quantity="few">комментария</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">подписчиков</item>
+        <item quantity="one">подписчик</item>
+        <item quantity="few">подписчика</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">статей</item>
+        <item quantity="one">статья</item>
+        <item quantity="few">статьи</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">идей</item>
+        <item quantity="one">идея</item>
+        <item quantity="few">идеи</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">человек</item>
+        <item quantity="one">человек</item>
+        <item quantity="few">человека</item>
+    </plurals>
+</resources>

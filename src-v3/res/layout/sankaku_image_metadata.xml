@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/similar_images_container" android:layout_width="-1" android:layout_height="-2">
+        <include layout="@layout/gallery_horizontal_list_container" />
+    </RelativeLayout>
+    <include android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/similar_images_container" layout="@layout/booru_image_metadata" />
+</RelativeLayout>

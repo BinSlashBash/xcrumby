@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crumby.lib.widget.firstparty.grow.ImagePressWrapper android:layout_gravity="11" style="@style/image_press_wrapper">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2" style="@style/image_wrapper_content">
+        <ProgressBar android:id="@id/loading_grid_image" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@id/thumbnail" style="@style/thumbnail" />
+            <com.crumby.lib.widget.firstparty.WebViewContainer android:id="@id/webview_container" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:minHeight="@dimen/thumbnail_height" />
+            <include android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" layout="@layout/image_wrapper_metadata" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.crumby.lib.widget.firstparty.grow.ImagePressWrapper>

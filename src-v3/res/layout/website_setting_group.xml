@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:background="@drawable/fragment_suggestion" android:paddingLeft="50dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="50dp">
+    <ImageView android:id="@id/index_image" android:layout_width="30dp" android:layout_height="30dp" />
+    <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="18sp" android:textColor="@color/SettingMenuTitle" android:id="@id/index_title" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="14sp" android:id="@id/index_description" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="1" android:paddingTop="50dp" android:layout_width="-2" android:layout_height="-1" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <TextView android:textSize="34sp" android:gravity="11" android:id="@id/error_main_message" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    <TextView android:textSize="16sp" android:textColor="@color/SubtleBlue" android:gravity="11" android:id="@id/error_sub_message" android:layout_width="-2" android:layout_height="-2" android:maxWidth="400dp" android:text="" />
+    <ScrollView android:layout_width="-1" android:layout_height="-2" android:layout_weight="0.0">
+        <TextView android:textSize="16sp" android:id="@id/error_details" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:maxWidth="400dp" android:text="" android:alpha="0.75" />
+    </ScrollView>
+    <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+        <Button android:id="@id/error_report" android:layout_width="140dp" android:layout_height="-2" android:text="Get Help!" android:drawableLeft="@drawable/uv_contact" />
+        <Button android:visibility="2" android:layout_width="140dp" android:layout_height="-2" android:text="Retry" android:drawableLeft="@drawable/ic_action_refresh" />
+        <Button android:id="@id/error_try_opening_in_web_browser" android:layout_width="140dp" android:layout_height="-2" android:text="Try in web browser" android:drawableLeft="@drawable/ic_action_web_site" />
+        <Button android:id="@id/error_dismiss" android:layout_width="140dp" android:layout_height="-2" android:text="Dismiss" />
+    </LinearLayout>
+</LinearLayout>

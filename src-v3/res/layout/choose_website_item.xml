@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:id="@id/website_image" android:layout_width="70dp" android:layout_height="70dp" />
+    <TextView android:id="@id/website_name" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

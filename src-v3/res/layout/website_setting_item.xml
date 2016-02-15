@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/BackgroundGray" android:paddingLeft="50dp" android:paddingTop="10dp" android:paddingBottom="30dp" android:layout_width="-2" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:id="@id/website_specific_setting" android:layout_width="-1" android:layout_height="-2" /> />

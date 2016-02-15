@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="11sp" android:textStyle="1" android:textColor="#ffffff" android:id="@id/uv_status" android:background="#8dc13c" android:paddingLeft="10dp" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2" android:text="Started" />
+    <ListView android:id="@id/uv_list" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

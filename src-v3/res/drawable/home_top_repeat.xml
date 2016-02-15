@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/home_top_bg" android:dither="true" android:tileMode="1" />
